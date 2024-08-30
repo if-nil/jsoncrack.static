@@ -8,6 +8,11 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
  */
 const config = {
   output: "export",
+  basePath: "/nextjs-github-pages",
+  images: {
+    unoptimized: true,
+  },
+  
   reactStrictMode: false,
   productionBrowserSourceMaps: true,
   compiler: {
