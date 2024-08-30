@@ -12,7 +12,7 @@ const config = {
   images: {
     unoptimized: true,
   },
-  
+
   reactStrictMode: false,
   productionBrowserSourceMaps: true,
   compiler: {
